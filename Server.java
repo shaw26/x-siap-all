@@ -1,14 +1,3 @@
-/**
- * Server program to process requests for a Country's Capital.
- * 5/10/2016
- * 
- * @author Okeke Arthur Ugochukwu
- * @email : arthurugochukwu@gmail.com
- * @github : ...
- * @facebook : 
- * 
- * @version : 0.1
- */
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -27,7 +16,6 @@ public class Server {
     
     private static void loadData(HashMap<String, String> H) {
         
-        //open the file and read, line by line
         
         try {
             BufferedReader br = new BufferedReader(new FileReader(FILE));
